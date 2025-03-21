@@ -101,7 +101,7 @@ void config_initial_mode(void){
     byte_[0] = byte_[1] = 0;
     initial_config = true;
     sum_config = false;
-    summed = false;
+    summed = 0;
   }
 
 }
